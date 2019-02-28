@@ -36,7 +36,7 @@
 	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>カメラ撮影</string>
-	<key>NSPhotoLibraryUsageDescription</key>
+	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>アルバム選択</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
