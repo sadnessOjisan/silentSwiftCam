@@ -14,6 +14,7 @@
 		1C97413322284B380091CB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C97413222284B380091CB92 /* Assets.xcassets */; };
 		1C97413622284B380091CB92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C97413422284B380091CB92 /* LaunchScreen.storyboard */; };
 		1C97413E22284BA40091CB92 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1C97413D22284BA40091CB92 /* .gitignore */; };
+		1C9741412228527E0091CB92 /* unShutter.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1C9741402228527E0091CB92 /* unShutter.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1C97413722284B380091CB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C97413D22284BA40091CB92 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1C97413F22284C290091CB92 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1C9741402228527E0091CB92 /* unShutter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unShutter.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				1C97412822284B360091CB92 /* AppDelegate.swift */,
 				1C97412A22284B360091CB92 /* ViewController.swift */,
 				1C97412C22284B360091CB92 /* Main.storyboard */,
+				1C9741402228527E0091CB92 /* unShutter.caf */,
 				1C97413222284B380091CB92 /* Assets.xcassets */,
 				1C97413422284B380091CB92 /* LaunchScreen.storyboard */,
 				1C97413722284B380091CB92 /* Info.plist */,
@@ -132,6 +135,7 @@
 			files = (
 				1C97413E22284BA40091CB92 /* .gitignore in Resources */,
 				1C97413622284B380091CB92 /* LaunchScreen.storyboard in Resources */,
+				1C9741412228527E0091CB92 /* unShutter.caf in Resources */,
 				1C97413322284B380091CB92 /* Assets.xcassets in Resources */,
 				1C97412E22284B360091CB92 /* Main.storyboard in Resources */,
 			);

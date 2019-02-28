@@ -27,6 +27,12 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
         settingsForMonitoring.isHighResolutionPhotoEnabled = false
         // シャッターを切る
          stillImageOutput?.capturePhoto(with: settingsForMonitoring, delegate: self)
+        var soundIdRing:SystemSoundID = 0
+        if let soundUrl:NSURL = NSURL(fileURLWithPath:
+            Bundle.main.path(forResource: "unShutter", ofType:"caf")!) as NSURL?{
+            AudioServicesCreateSystemSoundID(soundUrl, &soundIdRing)
+            AudioServicesPlaySystemSound(soundIdRing)
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
