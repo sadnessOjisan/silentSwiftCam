@@ -26,6 +26,7 @@
 		1C97413522284B380091CB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C97413722284B380091CB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C97413D22284BA40091CB92 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1C97413F22284C290091CB92 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		1C97411C22284B360091CB92 = {
 			isa = PBXGroup;
 			children = (
+				1C97413F22284C290091CB92 /* README.md */,
 				1C97413D22284BA40091CB92 /* .gitignore */,
 				1C97412722284B360091CB92 /* silentCam */,
 				1C97412622284B360091CB92 /* Products */,
